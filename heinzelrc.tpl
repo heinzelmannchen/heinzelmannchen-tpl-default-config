@@ -9,10 +9,10 @@
         <% } %>
     },
     "templates": {
-        <% if ( generators ){ %>
+        <% if ( templates ){ %>
             <% _.each( templates, function( template ){ %>
                 "<%= template.name %>" : "<%= template.module %>"
             <% }); %>
-        <% }); %>
+        <% } %>
     }
 }
