@@ -2,13 +2,13 @@
     "domains": {
     },
     "generators": {
-        <% _.each( data.generators, function( generator ){ %>
-            "<%= generator.name %>" : "<%= generator.module %>"
-        <% }); %>
+        <%= _.map( data.generators, function( generator ){ %>
+            "<% return generator.name + ' : ' + generator.module %>"
+        <% }).join(','); %>
     },
     "templates": {
-        <% _.each( data.templates, function( template ){ %>
-            "<%= template.name %>" : "<%= template.module %>"
-        <% }); %>
+        <%= _.map( data.templates, function( template ){ %>
+            "<% return template.name + ' : ' + template.module %>"
+        <% }).join(','); %>
     }
 }
