@@ -1,0 +1,24 @@
+{
+  "name": "heinzelmannchen-tpl-default-config",
+  "version": "0.0.0",
+  "description": "template for the default config. Used in heinzel init.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-tpl-default-config"
+  },
+  "keywords": [
+    "heinzelmannchen",
+    "heinzelrc",
+    "default"
+  ],
+  "author": "Christoph Hermann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heinzelmannchen/heinzelmannchen-tpl-default-config/issues"
+  },
+  "homepage": "https://github.com/heinzelmannchen/heinzelmannchen-tpl-default-config"
+}

@@ -1,0 +1,8 @@
+{
+    "domains": {
+    },
+    "generators": {
+    },
+    "templates": {
+    }
+}
