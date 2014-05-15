@@ -2,17 +2,13 @@
     "domains": {
     },
     "generators": {
-        <% if ( generators ){ %>
-            <% _.each( generators, function( generator ){ %>
-                "<%= generator.name %>" : "<%= generator.module %>"
-            <% }); %>
-        <% } %>
+        <% _.each( data.generators, function( data.generator ){ %>
+            "<%= data.generator.name %>" : "<%= data.generator.module %>"
+        <% }); %>
     },
     "templates": {
-        <% if ( templates ){ %>
-            <% _.each( templates, function( template ){ %>
-                "<%= template.name %>" : "<%= template.module %>"
-            <% }); %>
-        <% } %>
+        <% _.each( data.templates, function( data.template ){ %>
+            "<%= data.template.name %>" : "<%= data.template.module %>"
+        <% }); %>
     }
 }
