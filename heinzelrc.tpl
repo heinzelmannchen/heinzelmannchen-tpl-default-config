@@ -1,14 +1,15 @@
+<% function mapItems(items) { %>
+<% return _.map( items, function( item ){ %>
+<%     return item.name + ' : ' + item.module %>
+<% }).join(',\n'); %>
+<% } %>
 {
     "domains": {
     },
     "generators": {
-        <%= _.map( data.generators, function( generator ){
-             return generator.name + ' : ' + generator.module;
-         }).join(','); %>
+        <%= mapItems(data.generators) %>
     },
     "templates": {
-        <%= _.map( data.templates, function( template ){
-            return template.name + ' : ' + template.module;
-        }).join(','); %>
+        <%= mapItems(data.templates) %>
     }
 }
