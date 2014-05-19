@@ -1,1 +1,11 @@
-[ "templates", "generators" ]
+{
+    "ask": [{
+        "type": "input",
+        "name": "generators",
+        "message": "Add generators"
+    }, {
+        "type": "input",
+        "name": "templates",
+        "message": "Add templates"
+    }]
+}
