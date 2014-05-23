@@ -26,7 +26,7 @@
             "gitignore" : {
                 "template": "heinzelmannchen-tpl-default-config/generator/gitignore.tpl",
                 "output": "./.gitignore"
-            }
+            },
             "generator": {
                 "name": "heinzelmannchen-gen-ask",
                 "config": {
