@@ -1,0 +1,19 @@
+{
+    "ask": [{
+        "type": "input",
+        "name": "generatorName",
+        "message": "Enter the name of your generator"
+    }, {
+        "type": "input",
+        "name": "generatorDescription",
+        "message": "Enter the description of your generator"
+    }, {
+        "type": "input",
+        "name": "author",
+        "message": "Author"
+    }, {
+        "type": "input",
+        "name": "url",
+        "message": "url"
+    }]
+}
