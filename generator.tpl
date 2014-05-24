@@ -3,7 +3,7 @@
         "all" : {
             "data": {
                 "generatorName" : "<%= generatorName %>",
-                "generatorDescription " : "<%= generatorDescription%>",
+                "generatorDescription" : "<%= generatorDescription%>",
                 "author" : "<%= author %>",
                 "url" : "<%= url %>"
             },

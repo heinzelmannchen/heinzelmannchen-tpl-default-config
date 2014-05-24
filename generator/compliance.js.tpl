@@ -1,4 +1,6 @@
-var Generator = require('..');
+var Generator = require('..'),
+    chai = require('chai'),
+    should = chai.Should();
 
 describe('Generator', function() {
     it('should be a class', function() {
