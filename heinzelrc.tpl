@@ -1,5 +1,6 @@
 <% function mapItems(items, prefix) { %>
 <% items = items || [] %>
+<% items = _.compact(items) %>
 <% if (items.length === 0) { return ''; } %>
 <% return _.map( items, function( item ){ %>
 <%     if (!_(item).startsWith(prefix)) { item = prefix + item; } %>
