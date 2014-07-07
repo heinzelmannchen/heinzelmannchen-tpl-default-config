@@ -1,5 +1,5 @@
 {
-  "name": "heinzelmannchen-gen-<%= generatorName %>",
+  "name": "<%= generatorName %>",
   "version": "1.0.2",
   "description": "<%= generatorDescription %>",
   "main": "index.js",
@@ -11,8 +11,8 @@
     "heinzelmannchen-generator": "~1.0.0"
   },
   "devDependencies": {
-    "mocha": "~1.17.1",
-    "chai": "~1.9.0"
+    "mocha": "*",
+    "chai": "*"
   },
   "scripts": {
     "test": "mocha"

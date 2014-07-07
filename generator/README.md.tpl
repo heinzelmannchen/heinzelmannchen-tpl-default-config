@@ -1,4 +1,4 @@
-heinzelmannchen-gen-<%= generatorName %>
+<%= generatorName %>
 =========================
 
 <%= generatorDescription %>
